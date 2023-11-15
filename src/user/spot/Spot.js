@@ -250,7 +250,7 @@ const MapConponent = ({ history }) => {
         if (!window.kakao || !window.kakao.maps) {
             // Load Kakao Maps API script
             const script = document.createElement("script");
-            script.src = "//dapi.kakao.com/v2/maps/sdk.js?appkey=07e379ab4c00aabca955315feb5f6347";
+            script.src = "//dapi.kakao.com/v2/maps/sdk.js?appkey=카카오 앱 key";
             script.async = true;
             script.onload = initializeMap;
             document.head.appendChild(script);
