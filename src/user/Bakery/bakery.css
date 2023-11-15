@@ -1,0 +1,29 @@
+/* #cardList.card {
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+#cardList.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2) !important;
+    transform: translateY(-10px);
+} */
+
+#bakeryImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+}
+
+#detailSlider.slick-slide img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#selectMenu {
+    height: 500px;
+}

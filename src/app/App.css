@@ -1,0 +1,52 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap"); */
+@font-face {
+    font-family: "KOTRA_BOLD-Bold";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.s-alert-box {
+    min-width: 250px;
+}
+
+.s-alert-close::before,
+.s-alert-close::after {
+    width: 2px;
+}
+
+#app {
+    height: 100%;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: rgb(240, 234, 233);
+    font-family: "KOTRA_BOLD-Bold";
+    font-size: 14px;
+    color: rgb(238, 150, 75);
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}

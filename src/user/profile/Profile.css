@@ -1,0 +1,167 @@
+/* 프로필 페이지 컨테이너 */
+#pp.profile-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    padding: 100px;
+    text-align: center;
+    /* background-image: url("../../home/HomeComponents/HomeImg/bakery.png"); */
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/* Mypage 제목 스타일 */
+#mt.mypage-title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: -32%;
+    color: black;
+}
+
+/* 왼쪽 프로필 컨테이너 */
+#pc.profile-container {
+    background-color: #ffffff; /* 배경색 변경 */
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    width: 50%;
+    max-width: 600px;
+    padding: 100px;
+    float: left;
+    margin-left: -10%;
+}
+
+/* 버튼 스타일 */
+.profile-button {
+    background-color: #ffa600; /* 배경색 변경 */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* 프로필 정보 스타일 */
+.profile-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+
+/* 프로필 아바타 스타일 */
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* 프로필 이미지 스타일 */
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 텍스트 아바타 스타일 */
+.text-avatar {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #007bff;
+    color: black;
+    border-radius: 50%;
+}
+
+/* 오른쪽 버튼 컨테이너 스타일 */
+.button-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Flexbox 스타일링 */
+#rowProfile.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+/* 버튼 스타일 */
+.profile-button {
+    background-color: #cf7d02b9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Flexbox 스타일링 */
+.button-container.button-container-horizontal {
+    background-color: #ffffff; /* 배경색 변경 */
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    width: 70%;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 100px;
+    margin: 0 0 0 0;
+}
+
+/* 추가 버튼 스타일링 */
+.profile-button {
+    margin: 0 10px;
+}
+
+/* 빵집 보관함 버튼 스타일 */
+.profile-button-bbangbok {
+    background-color: #cf7d02b9;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* 후기 보관함 버튼 스타일 */
+.profile-button-review {
+    background-color: #cf7d02b9;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.profile-button-chekin {
+    background-color: #d88406b9;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

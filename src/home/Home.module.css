@@ -1,0 +1,10 @@
+.row {
+    /* border: 0.5px solid black; */
+    height: 100px;
+    font-family: "Pacifico", cursive;
+}
+
+.row > div {
+    /* border: 0.5px solid black; */
+    height: 100px;
+}
